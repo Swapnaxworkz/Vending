@@ -1,0 +1,292 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+<title>VendingMachine</title>
+<script type="text/javascript">
+	function printBiscuit(name) {
+
+		if (name == "Bournvita biscuit") {
+			var rate=20;
+			var quantity=document.getElementById("name1").value;
+			
+			var total=rate*quantity;
+			document.getElementById("print1").innerHTML=total;
+		}
+
+		if (name == "Parle biscuit") {
+			var rate=5;
+			var quantity=document.getElementById("name2").value;
+			
+			var total=rate*quantity;
+			document.getElementById("print2").innerHTML=total;
+		}
+		
+		if (name == "Oreo biscuit") {
+			var rate=20;
+			var quantity=document.getElementById("name3").value;
+			
+			var total=rate*quantity;
+			document.getElementById("print3").innerHTML=total;
+
+		}
+		if (name == "Fab biscuit") {
+			var rate=20;
+			var quantity=document.getElementById("name4").value;
+			
+			var total=rate*quantity;
+			document.getElementById("print4").innerHTML=total;
+
+		}
+		if (name == "Bourbon biscuit") {
+			var rate=20;
+			var quantity=document.getElementById("name5").value;
+			
+			var total=rate*quantity;
+			document.getElementById("print5").innerHTML=total;
+	}
+		if (name == "Tiger biscuit") {
+			var rate=20;
+			var quantity=document.getElementById("name6").value;
+			
+			var total=rate*quantity;
+			document.getElementById("print6").innerHTML=total;
+
+		}
+		if (name == "Sunfeast biscuit") {
+			var rate=20;
+			var quantity=document.getElementById("name7").value;
+			
+			var total=rate*quantity;
+			document.getElementById("print7").innerHTML=total;
+	}
+		if (name == "Mariegold biscuit") {
+			var rate=20;
+			var quantity=document.getElementById("name8").value;
+			
+			var total=rate*quantity;
+			document.getElementById("print8").innerHTML=total;
+
+		}
+		if (name == "Momsmagic biscuit") {
+			var rate=20;
+			var quantity=document.getElementById("name9").value;
+			
+			var total=rate*quantity;
+			document.getElementById("print9").innerHTML=total;
+
+		}
+		if (name == "Marielight biscuit") {
+			var rate=20;
+			var quantity=document.getElementById("name10").value;
+			
+			var total=rate*quantity;
+			document.getElementById("print10").innerHTML=total;
+		}
+		if (name == "Patanjali biscuit") {
+			var rate=20;
+			var quantity=document.getElementById("name11").value;
+			
+			var total=rate*quantity;
+			document.getElementById("print11").innerHTML=total;
+
+		}
+		if (name == "Dreamcream biscuit") {
+			var rate=10;
+			var quantity=document.getElementById("name12").value;
+			
+			var total=rate*quantity;
+			document.getElementById("print12").innerHTML=total;
+		}
+		if (name == "Nutrichoice biscuit") {
+			var rate=20;
+			var quantity=document.getElementById("name13").value;
+			
+			var total=rate*quantity;
+			document.getElementById("print13").innerHTML=total;
+		}
+		if (name == "Hideandseek biscuit") {
+			var rate=20;
+			var quantity=document.getElementById("name14").value;
+			
+			var total=rate*quantity;
+			document.getElementById("print14").innerHTML=total;
+		}
+		if (name == "Milkbikis biscuit") {
+			var rate=20;
+			var quantity=document.getElementById("name15").value;
+			
+			var total=rate*quantity;
+			document.getElementById("print15").innerHTML=total;
+		}
+		if (name == "Unibic biscuit") {
+			var rate=20;
+			var quantity=document.getElementById("name16").value;
+			
+			var total=rate*quantity;
+			document.getElementById("print16").innerHTML=total;
+		}
+		if (name == "Monaco biscuit") {
+			var rate=20;
+			var quantity=document.getElementById("name17").value;
+			
+			var total=rate*quantity;
+			document.getElementById("print17").innerHTML=total;
+
+		}
+		if (name == "Darkfantacy biscuit") {
+			var rate=20;
+			var quantity=document.getElementById("name18").value;
+			
+			var total=rate*quantity;
+			document.getElementById("print18").innerHTML=total;
+		}
+		if (name == "Biskfarm biscuit") {
+			var rate=20;
+			var quantity=document.getElementById("name19").value;
+			
+			var total=rate*quantity;
+			document.getElementById("print19").innerHTML=total;
+
+		}
+		if (name == "Littlehearts biscuit") {
+			var rate=20;
+			var quantity=document.getElementById("name20").value;
+			
+			var total=rate*quantity;
+			document.getElementById("print20").innerHTML=total;
+
+		}
+	}
+</script>
+<style>
+img{
+width:200px;
+height:200px;
+}
+
+button {
+	margin-left: 50px;
+}
+
+td {
+
+	border-color: black;
+}
+</style>
+</head>
+<body>
+	<table>
+		<tr>
+			<td><img src="https://www.bigbasket.com/media/uploads/p/l/40167061_2-cadbury-bournvita-banana-oats-biscuits.jpg">
+				<button onclick="printBiscuit('Bournvita biscuit')">Bournvita biscuit
+					</button>
+					<input type="number" placeholder="Quantity" id="name1">
+					<p id="print1"></p>
+					</td>
+			<td><img src="https://kumaribasket.com/wp-content/uploads/2020/10/Parle-G-Original-Glucose-Biscuit4.jpg">
+				<button onclick="printBiscuit('Parle biscuit')">Parle biscuit
+				</button>
+					<input type="number" placeholder="Quantity" id="name2">
+					<p id="print2"></p>
+					</td>
+			<td><img src="https://cdni.onedayonly.co.za/catalog/product/158/876/1588764265.3269.png?auto=compress&bg=fff&fit=fill&h=800&w=800">
+				<button onclick="printBiscuit('Oreo biscuit')">Oreo biscuit</button>
+			<input type="number" placeholder="Quantity" id="name3">
+					<p id="print3"></p>
+					</td>
+			<td><img src="https://www.desiclik.com/images/P/Parle_Hide__Seek_Fab_Chocolate_112gm.jpg">
+				<button onclick="printBiscuit('Fab biscuit')">Fab biscuit</button><input type="number" placeholder="Quantity" id="name4">
+					<p id="print4"></p>
+					</td>
+			<td><img src="https://5.imimg.com/data5/SELLER/Default/2021/2/MM/IN/JS/14475970/bourbon-biscuit.jpg">
+				<button onclick="printBiscuit('Bourbon biscuit')">Bourbon
+					biscuit</button><input type="number" placeholder="Quantity" id="name5">
+					<p id="print5"></p>
+					</td>
+		</tr>
+		<tr>
+			<td><img src="https://5.imimg.com/data5/CI/AJ/MY-18793744/tiger-krunch-choco-chip-40gm-pack-of-12-500x500.png">
+				<button onclick="printBiscuit('Tiger biscuit')">Tiger
+					biscuit</button><input type="number" placeholder="Quantity" id="name6">
+					<p id="print6"></p>
+					</td>
+			<td><img src="https://n4.sdlcdn.com/imgs/c/v/1/71euOAIeceL__SL1500_-6009b.jpg">
+				<button onclick="printBiscuit('Sunfeast biscuit')">Sunfeast
+					biscuit</button><input type="number" placeholder="Quantity" id="name7">
+					<p id="print7"></p>
+					</td>
+			<td><img src="https://www.bigbasket.com/media/uploads/p/l/264597_7-britannia-biscuits-marie-gold.jpg">
+				<button onclick="printBiscuit('Mariegold biscuit')">Mariegold
+					biscuit</button>
+					<input type="number" placeholder="Quantity" id="name8">
+					<p id="print8"></p>
+					</td>
+			<td><img src="https://5.imimg.com/data5/SELLER/Default/2021/1/IH/RF/VL/14357089/sunfeast-moms-magic-biscuit-500x500.jpg">
+				<button onclick="printBiscuit('Momsmagic biscuit')">Momsmagic
+					biscuit</button><input type="number" placeholder="Quantity" id="name9">
+					<p id="print9"></p>
+					</td>
+			<td><img src="https://tse1.mm.bing.net/th?id=OIP.ZxyIZ4RLA2r2v8v3rawu2wHaHa&pid=Api&P=0&w=162&h=162">
+				<button onclick="printBiscuit('Marielight biscuit')">Marielight
+					biscuit</button><input type="number" placeholder="Quantity" id="name10">
+					<p id="print10"></p>
+					</td>
+		</tr>
+		<tr>
+			<td><img src="https://5.imimg.com/data5/RB/KF/MY-37859571/patanjali_doodh_biscuits_100gm-500x500.jpg">
+				<button onclick="printBiscuit('Patanjali biscuit')">Patanjali
+					biscuit</button><input type="number" placeholder="Quantity" id="name11">
+					<p id="print11"></p>
+					</td>
+			<td><img src="https://e.saravanaonline.com/2999-large_default/sunfeast-bounce-dream-cream-choco-vanilla-biscuit.jpg">
+				<button onclick="printBiscuit('Dreamcream')">Dreamcream
+					biscuit</button><input type="number" placeholder="Quantity" id="name12">
+					<p id="print12"></p>
+					</td>
+			<td><img src="https://evegro.com/wp-content/uploads/2020/11/Britannia-Nutri-Choice-Oats-Orange-Cookies-Packet-75-Gram-1280x1280.jpg">
+				<button onclick="printBiscuit('Nutrichoice biscuit')">Nutrichoice
+					biscuit</button><input type="number" placeholder="Quantity" id="name13">
+					<p id="print13"></p>
+					</td>
+			<td><img src="https://5.imimg.com/data5/AG/DQ/OK/SELLER-16699599/hide-seek-chocolate-biscuits-500x500.jpg">
+				<button onclick="printBiscuit('Hideandseek biscuit')">Hideandseek
+					biscuit</button><input type="number" placeholder="Quantity" id="name14">
+					<p id="print14"></p>
+					</td>
+			<td><img src="https://www.bayzon.com/images/productimages/1592569476britannia_milk_bikis_90g.jpg">
+				<button onclick="printBiscuit('Milkbikis biscuit')">Milkbikis
+					biscuit</button>
+					<input type="number" placeholder="Quantity" id="name15">
+					<p id="print15"></p>
+					</td>
+		</tr>
+		<tr>
+			<td><img src="https://tse1.mm.bing.net/th?id=OIP.MaaNKu0uNC4x737XuRuTSgHaHa&pid=Api&P=0&w=176&h=176">
+				<button onclick="printBiscuit('Unibic biscuit')">Unibic
+					biscuit</button><input type="number" placeholder="Quantity" id="name16">
+					<p id="print16"></p>
+					</td>
+			<td><img src="https://5.imimg.com/data5/FH/LA/CK/SELLER-107310956/parle-monaco-salted-cracker-biscuit-500x500.jpg">
+				<button onclick="printBiscuit('Monaco biscuit')">Monaco
+					biscuit</button><input type="number" placeholder="Quantity" id="name17">
+					<p id="print17"></p>
+					</td>
+			<td><img src="https://res.sastasundar.com/incom/images/product/Sunfeast-Dark-Fantasy-Choco-Fills-1498651196-10033449.jpg">
+				<button onclick="printBiscuit('Darkfantacy biscuit')">Darkfantacy
+					biscuit</button><input type="number" placeholder="Quantity" id="name18">
+					<p id="print18"></p>
+					</td>
+			<td><img src="https://tse1.mm.bing.net/th?id=OIP.2xPOJm4xShPYAD-XZ4Ub5QHaGW&pid=Api&P=0&w=222&h=191">
+				<button onclick="printBiscuit('Biskfarm biscuit')">Biskfarm
+					biscuit</button><input type="number" placeholder="Quantity" id="name19">
+					<p id="print19"></p>
+					</td>
+			<td><img src="http://nammamaligai.com/wp-content/uploads/2016/10/bri-heart.jpg">
+				<button onclick="printBiscuit('Littlehearts biscuit')">Littlehearts
+					biscuit</button><input type="number" placeholder="Quantity" id="name20">
+					<p id="print20"></p>
+					</td>
+		</tr>
+		</table>
+</html>
